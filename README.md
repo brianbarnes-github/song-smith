@@ -22,8 +22,8 @@ The MIDI is the source of truth. Songsmith makes as few decisions for you as it 
 
 ### Refine
 - Instrument card per part: transpose, volume, delay, usable range and chord-note filters
-- **Note Maps** for pitched instruments, and a drum-kit editor for mapping GM drums to LOTRO drum sounds (Maestro `.txt` import and export)
-- **Chord Cruncher**: turn big chords into 1 to 6 notes you choose, to stay under LOTRO's 64-note polyphony cap
+- **Note Maps** for pitched instruments, and **Drumsmith**, a drum-kit editor for mapping GM drums to LOTRO drum sounds (Maestro `.txt` import and export)
+- **Chordsmith**: turn big chords into 1 to 6 notes you choose, to stay under LOTRO's 64-note polyphony cap
 - Range band always shown, so out-of-range notes are visible while you edit
 
 ### Arrange
@@ -43,7 +43,7 @@ The MIDI is the source of truth. Songsmith makes as few decisions for you as it 
 1. Open the [Releases](../../releases) page and download the latest `song-smith-windows.zip`.
 2. Unzip it anywhere and double-click `song-smith.exe`.
 
-Playback works out of the box with the bundled General MIDI SoundFont. For LOTRO instrument sounds, download `SongSmith-LOTRO.sf2` from the [SoundFonts release](../../releases/tag/soundfonts), then choose it under **File → Preferences → Playback → Browse**.
+Playback works out of the box with the bundled General MIDI SoundFont. For LOTRO instrument sounds, download `SongSmith-LOTRO.sf2` from the [SoundFonts release](../../releases/tag/soundfonts), then put it in the `resources` folder next to `song-smith.exe`.
 
 Windows only (64-bit).
 
