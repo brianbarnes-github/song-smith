@@ -63,6 +63,8 @@ The zip also includes `engines/forge.exe`, the converter that Songsmith uses. Ru
 
 Please open an [issue](../../issues) with what you were doing, what you expected, and what happened. A short MIDI file that shows the problem helps a great deal.
 
+For questions, help and general discussion, join the [Songsmith Discord](https://discord.gg/mXJqBwhfmG).
+
 ## Credits and licences
 
 - The bundled playback SoundFont is the GPL-2 TimGM6mb bank, renamed `SongSmith.sf2`. Its licence text and notice are in the zip under `licenses/`.
