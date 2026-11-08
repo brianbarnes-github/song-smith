@@ -7,6 +7,7 @@ At release, rename **Unreleased** to the version and date and start a new
 section, so keep each section short.
 
 ## Unreleased
+- Switching song versions now closes an open Note Maps window (kit or grid) that is tied to a part, asking first if it has unsaved edits, so it never shows data from the version you left; the grid window also closes when its part is deleted, as the kit already did.
 - Loudness Timeline fixes: at fast playback rates the line no longer has gaps, deleting or adding a part keeps the other parts' lines, a part's reading no longer mixes 100 ms blocks from different channels, and recording resumes 0.2 s after a seek or loop wrap instead of 0.5 s.
 - The Loudness Timeline now follows the latest 100 ms of sound, so a line drops about 100 ms after a note stops instead of trailing it for up to 400 ms, and it breaks where a part falls below the -50 dB scale instead of running along the bottom edge.
 - Preferences ▸ Diagnostics ▸ Run Level 1 After an Import now covers ABC, Guitar Pro and MusicXML imports as well as MIDI.
