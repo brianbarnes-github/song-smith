@@ -7,6 +7,7 @@ At release, rename **Unreleased** to the version and date and start a new
 section, so keep each section short.
 
 ## Unreleased
+- The Loudness Timeline now follows the latest 100 ms of sound, so a line drops about 100 ms after a note stops instead of trailing it for up to 400 ms, and it breaks where a part falls below the -50 dB scale instead of running along the bottom edge.
 - Preferences ▸ Diagnostics ▸ Run Level 1 After an Import now covers ABC, Guitar Pro and MusicXML imports as well as MIDI.
 - Render (ABC) now also runs the Level 3 text checks on the finished ABC and stops, asks or goes ahead on their errors exactly as it does for Level 1 (Preferences ▸ Diagnostics); Ignore Short Note Errors drops the too-short ones from both.
 - The ABC player now warns, without stopping the tune, about any note or rest LOTRO would refuse (60 ms or less, over 8 s, or a chord of more than 6 notes), naming the line and column the game would report.
