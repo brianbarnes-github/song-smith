@@ -7,6 +7,10 @@ At release, rename **Unreleased** to the version and date and start a new
 section, so keep each section short.
 
 ## Unreleased
+- Preferences ▸ Diagnostics ▸ Run Level 1 After an Import now covers ABC, Guitar Pro and MusicXML imports as well as MIDI.
+- Render (ABC) now also runs the Level 3 text checks on the finished ABC and stops, asks or goes ahead on their errors exactly as it does for Level 1 (Preferences ▸ Diagnostics); Ignore Short Note Errors drops the too-short ones from both.
+- The ABC player now warns, without stopping the tune, about any note or rest LOTRO would refuse (60 ms or less, over 8 s, or a chord of more than 6 notes), naming the line and column the game would report.
+- Song ▸ Diagnostics ▸ Level 3 - ABC also reads the finished ABC and reports, as errors with the game's line and column, any note or rest of 60 ms or less, any over 8 s, and any chord of more than 6 notes (its z-pulse counts as one).
 - Each release now also puts the changelog on the public Song Smith page as CHANGELOG.md.
 - Preferences ▸ ABC Output ▸ BODY FORMAT has "Make Instruments Unique" (off by default): parts that share an instrument get 1, 2, 3 added to the instrument name wherever the title format has it (Lute of Ages 1, Lute of Ages 2), so a band can say which one to take. An instrument used once keeps its plain name; a format without the instrument name label is not changed.
 - Preferences ▸ ABC Output has BODY FORMAT and BEHAVIOUR headings: the five comment checkboxes sit under the first, the mute/solo, stretch, collapse and tie options and the dynamic tie-break under the second.
