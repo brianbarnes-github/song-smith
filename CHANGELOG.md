@@ -7,6 +7,7 @@ At release, rename **Unreleased** to the version and date and start a new
 section, so keep each section short.
 
 ## Unreleased
+- Preferences ▸ Playback ▸ **Output device** picks the sound device Songsmith plays through. With logging on, a **playback log** records every Play, Stop, seek and device open with the output level, and a device that cannot start playback now says so.
 - Preferences ▸ Diagnostics ▸ **Write a log file for each diagnostics run and ABC render** saves a plain-text .log of every Level 1/2/3 run, import report and ABC render to the new **Log Folder** (Preferences ▸ Folders; else a Logs folder beside the ABC folder or the song). **Log detail** Terse writes the report and settings in effect; Verbose adds a line for each decision on a note. The grid is unchanged.
 - Diagnostics also report chord-keep thinning, notes with no length dropped, same-pitch notes shortened, notes over 8 s cut, the tempo chosen for Q:, and drum notes with no drum-map slot.
 - `forge` gets `--log PATH` and `--log-detail terse|verbose`.
