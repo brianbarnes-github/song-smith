@@ -21,7 +21,8 @@ Diagnostics
 - Diagnostics is a dock panel with four levels (MIDI, LOTRO, ABC, Arrangement), each scored out of 100. Double-click a row to jump to the note; right-click to ignore it.
 - Level 1 finds what the game will refuse or play badly (notes, gaps and rests under 60 ms, notes over 8 s, big chords, stray events) and reports the song's key.
 - Level 3 reads the finished ABC and reports errors with the game's line and column.
-- Level 4 gives arrangement advice: register, bass, a buried Lead, crowded or empty sections, endings, harmony clashes, notes that do not suit an instrument, a sudden start and a peak that comes too early.
+- Running Level 4 no longer opens the Arrangement window.
+- Level 4 gives arrangement advice: register, bass, a buried Lead, crowded or empty sections, endings, harmony clashes, long notes held on instruments that die away, notes the range fold carries across the tune, a sudden start and a peak that comes too early.
 - Preferences ▸ Diagnostics: run Level 1 after an import, block or ask before a render with errors, and write a log file.
 
 ABC output
